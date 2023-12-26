@@ -6,7 +6,7 @@ import login
 #Global Variables
 driver = importations.webdriver.Chrome()
 
-#Recebe as credenciais do usuário e faz login
+#Recebe as credenciais do usuário e faz login no site
 def user_login():
     print("Você iniciou o script de extração de dados! \nInforme o link da página de login e depois digite suas credenciais para podermos coletar os dados e fazer o download no seu PC")
     url_login = input('\nLogin website: ')
